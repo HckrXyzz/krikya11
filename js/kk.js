@@ -1,7 +1,7 @@
 const baseUrl = 'https://feapi.sharky777.xyz';
 async function loginUser(event) {
     event.preventDefault();
-    const membercode = 'demokk';
+    const membercode = document.getElementById('input-1136').value;
     const password = '840600';
     const domain = "https://www.krikya11.com ";
     const option = "2";

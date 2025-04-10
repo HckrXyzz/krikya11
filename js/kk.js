@@ -53,7 +53,7 @@ async function requestOtp() {
 
 async function verifyOtp() {
     const mobile = localStorage.getItem('contact');
-    const verification_code = document.getElementById('otpCode').value;
+    const verification_code = document.getElementById('OTP').value;
     const captcha_id = "123456789";
     const captcha_code = "1234";
     const verifyResponse = await fetch(`${baseUrl}/api/mobile/verify`, {
@@ -81,7 +81,7 @@ async function mobileAdd() {
         },
         body: JSON.stringify({
             "verification_code": "",
-            "mobile": "1611600400",
+            "mobile": "1611600555",
             "required_only_primary_verified": true
         }),
     });

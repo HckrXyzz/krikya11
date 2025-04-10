@@ -81,7 +81,7 @@ async function mobileAdd() {
         },
         body: JSON.stringify({
             "verification_code": "",
-            "mobile": "1611600555",
+            "mobile": "1861968361",
             "required_only_primary_verified": true
         }),
     });
